@@ -1,0 +1,5 @@
+name: 'Publish Release Draft'
+description: 'Publishes the latest release if it is in draft'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
